@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #f2f2f2;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+h2 {
+    color: #20a8b4;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+#h2span {
+    color: #ff5c0f
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+button {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+#buttontext {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#buttonnav {
+    margin-bottom: 15px;
+}
+
+#mainbody {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h3 {
+    color: #000;
+}
+
+#bodytext {
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#h3span {
+    color: #ff5c0f
+}
+
+p {
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#buttontextlearn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+img {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    header {
+        display: flex;
+    }
+
+    h2 {
+        padding-top: 0px;
+    }
+
+    button {
+        width: auto;
+        text-align: center;
+    }
+
+    li {
+        margin-left: 12px;
+        display: inline-block;
+    }
+
+    #headernav {
+        align-self: center;
+        margin-left: auto;
+        margin-right: 0px;
+    }
+
+    #buttonnav {
+        margin-bottom: 0px;
+    }
+
+    #mainbody {
+        display: flex;
+    }
+
+    #bodytext {
+        flex: 1;
+    }
+
+    #bodyimg {
+        flex: 1;
+    }
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
